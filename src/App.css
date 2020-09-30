@@ -1,38 +1,78 @@
-.App {
+body{
+  width: 100%;
+  padding: 0;
+  
+}
+
+.title{
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subtitle{
+  width: 100%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  border: 1px solid red;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rows{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.col1{
+  width: 40%;
+  margin-top: 5px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col2{
+  width: 40%;
+  border: 1px solid orange;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
+
+.col2:hover{
+  border: 2px solid orange;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.add{
+  margin-left: 5px;
+  border: 1px solid blue;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.add:hover{
+  border: 2px solid blue;
+}
+
+.deleteContainer{
+  width: 30%;
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid red;
+  margin-left: 35%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.deleteContainer:hover{
+  border: 2px solid red;
+}
+
